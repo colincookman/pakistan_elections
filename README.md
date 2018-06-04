@@ -1,7 +1,7 @@
 # Pakistan Elections Data
 
 ## Project description
-This repository collects data, graphics, and analysis conducted as part of a study assessing Pakistan's 2018 parliamentary elections. The report reviews the major trends of the past five years and of previous Pakistani national election cycles, looks at competing interest groups in both the formal and informal political system, and examines how the electoral competition is structured, administered, and adjudicated. The full report can be read [here](LINK).
+This repository collects data, graphics, and analysis conducted as part of a study assessing Pakistan's 2018 parliamentary elections. The report reviews the major trends of the past five years and of previous Pakistani national election cycles, looks at competing interest groups in both the formal and informal political system, and examines how the electoral competition is structured, administered, and adjudicated. The full report can be read [here](https://github.com/colincookman/pakistan_elections/blob/master/paper/CCookman%20-%20Previewing%20Pakistans%202018%20Elections.pdf) (or in a B&W format [here](https://github.com/colincookman/pakistan_elections/blob/master/paper/CCookman%20-%20Previewing%20Pakistans%202018%20Elections%20-%20BW%20Version.pdf)).
 
 Candidate and constituency-level data used for this report and released in open-source, tidy format can be found in the [data folder](https://github.com/colincookman/pakistan_elections/data/), and code used to generate graphics for the report in the [graphics folder](https://github.com/colincookman/pakistan_elections/graphics/).
 
