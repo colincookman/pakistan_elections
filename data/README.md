@@ -28,21 +28,21 @@ For a full description of this project, author analysis, and important caveats a
 
 **voter_reg:** Total voter registration figures in contest as reported by ECP
 
-**validated_votes:** Total validated votes in contest as reported by ECP
+**validated_votes:** Total validated votes in contest as calculated from ECP figures (may not agree with published ECP total vote figures in some cases)
 
 **votes_disq:** Votes disqualified in contest as reported by ECP (not disaggregated by candidate)
 
 **candidateID:** Randomly generated unique ID string for candidate. **Note:** as of initial release, candidate matches have not yet been coded, so all entries have their own unique ID and this cannot be used to track candidates across elections, parties, or constituencies.
 
-**candidate_name:** Candidate name as reported by ECP
+**candidate_name:** Candidate name as reported by ECP (not standardized)
 
-**candidate_party:** Candidate party as reported by ECP, standardized in cleaning process
+**candidate_party:** Candidate party as reported by ECP (standardized in cleaning process)
 
 **candidate_votes:** Valid votes received by candidate as reported by ECP
 
-**candidate_share:** Share of total valid votes in race received by candidate
+**candidate_share:** Share of validated_votes in race received by candidate
 
-**candidate_rank:** Candidate's rank out of contestants in race (ties show as equal value)
+**candidate_rank:** Candidate's rank out of contestants in race (ties show as equal rank value)
 
 **outcome:** Candidate won or lost
 
@@ -72,7 +72,7 @@ For a full description of this project, author analysis, and important caveats a
 
 **disq_pct:** Votes disqualified as a percentage of total votes cast
 
-**validated_votes:** Total validated votes in contest as reported by ECP
+**validated_votes:** Total validated votes in contest as calculated from ECP figures (may not agree with published ECP total vote figures in some cases)
 
 **MOV_votes:** Difference between winner's valid votes and runner-up valid votes
 
