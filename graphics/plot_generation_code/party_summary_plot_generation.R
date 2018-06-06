@@ -110,7 +110,7 @@ ggplot(data = subset(Party_Summary, assembly == "National" & election_type == "G
                                        major == TRUE),
              aes(log(seats_contested_share), x = log(mean_vote_share), size = seats_won, color = candidate_party)
              ) +
-  scale_color_manual(values = c("#a6cee3", "#ffff99", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a", "#1f78b4", "#b15928", "black")) +
+  scale_color_manual(values = c("#a6cee3", "#ffff99", "#b2df8a", "#33a02c", "#fb9a99", "#b15928", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a", "#1f78b4", "#e31a1c", "black")) +
   labs(x = "Mean Vote Share per Constituency of Party Candidates (log scale)",
        y = "Share of Assembly Seats Contested (log scale)",
        title = "Party Performance in Pakistan's National Assembly Elections (2002 - 2013)",
