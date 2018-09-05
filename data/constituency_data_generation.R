@@ -2,7 +2,10 @@
 # CONTACT: ccookman at gmail dot com
 # SOURCE: https://github.com/colincookman/pakistan_elections/
 #
-candidate_data <- read.csv("https://github.com/colincookman/pakistan_elections/data/pk_candidate_data.csv") # load candidate data
+library(tidyverse)
+library(lubridate)
+
+candidate_data <- read.csv("./data/pk_candidate_data.csv") # load candidate data
 candidate_data$election_date <- mdy(candidate_data$election_date)
   
 constituency_data <- candidate_data %>%  
@@ -112,3 +115,4 @@ constituency_data <- dplyr::select(constituency_data, election_date, election_ty
                                    effective_parties, Cox_SF_ratio, winbuckets, delimit)
 #
 constituency_data <- arrange(constituency_data, constituency_number, election_date)
+write.csv(constituency_data, "./data/pk_constituency_data.csv", row.names = F)
